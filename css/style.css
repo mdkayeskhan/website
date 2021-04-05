@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Nav Part CSS Start */
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #49cbcd;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 43px;
+  color: #44c0c2 !important;
+  padding: 16px 0px 20px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #484c55;
+  font-size: 15px;
+  position: relative;
+  padding: 39px 22px;
+}
+
+.navbar-light .navbar-nav .nav-link:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #49cbcd;
+  opacity: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.active:after {
+  opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:after {
+  opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background: #EEEEF0;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #484c55;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #49cbcd;
+  background: #EEEEF0;
+}
+
+.navbar {
+  padding: 0;
+  z-index: 2000;
+  transition: all .5s ease;
+}
+
+.nav_bg {
+  background: #ddd !important;
+}
+
+/* Nav Part CSS End */
+
+/* Banner Part CSS Start */
+
+#banner_part {
+  background: url(../img/banner_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 130px 0px;
+}
+
+.banner_text h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 63px;
+}
+
+.banner_text p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 23px;
+  padding-top: 15px;
+  margin: 55px 0px;
+}
+
+.banner_btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 26px;
+  border: 3px solid #fff;
+  padding: 12px 40px;
+  margin-bottom: 17px;
+  border-radius: 5px;
+}
+
+/* Banner Part CSS End */
+
+/* Service Part CSS Start */
+
+#service_part {
+  padding: 100px 0px;
+}
+
+.service_icon {
+  width: 105px;
+  height: 105px;
+  border: 3px solid #49cbcd;
+  border-radius: 50%;
+  font-size: 40px;
+  line-height: 105px;
+  color: #49cbcd;
+  margin-bottom: 50px;
+}
+
+.service_text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.service_text p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.service_btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 12px;
+  background: #49cbcd;
+  border-radius: 5px;
+}
+
+/* Service Part CSS End */
+
+/* Portfolio Part CSS Start */
+
+#portfolio_part {
+  background: #EEEEF0;
+  padding-bottom: 100px;
+}
+
+.portfolio_text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 42px;
+  padding: 42px 0px 20px 0px;
+}
+
+.portfolio_mid {
+  padding-bottom: 60px;
+}
+
+.portfolio_img {
+  padding-top: 30px;
+}
+
+.portfolio_btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 24px;
+  padding: 12px 40px;
+  background: #49cbcd;
+  border-radius: 3px;
+}
+
+/* Portfolio Part CSS End */
+
+/* Team Part CSS Start */
+
+#team_part {
+  padding: 90px 0px;
+}
+
+.team_part_top h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 42px;
+  padding-bottom: 125px;
+}
+
+.team_img {
+  width: 200px;
+  height: 200px;
+  background: #EEEEF0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: relative;
+}
+
+.team_img_bg1 {
+  background: url(../img/team1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team_img_bg2 {
+  background: url(../img/team3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team_img_bg3 {
+  background: url(../img/team4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team_img_bg4 {
+  background: url(../img/team2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.team_icon {
+  font-size: 45px;
+  line-height: 200px;
+  transform: rotate(45deg);
+  color: #F46D6D;
+  opacity: 0;
+  z-index: 1;
+}
+
+.team_img:hover .team_icon {
+  opacity: 1;
+}
+
+.team_text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 22px;
+  padding-top: 70px;
+}
+
+.team_text h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.team_text p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 14px;
+}
+
+
+/* Team Part CSS End */
+
+/* Price Part CSS Start */
+
+#price_part {
+  background: #F1F1F1;
+  padding: 100px 0px;
+}
+
+.basic_price {
+  padding-top: 20px;
+}
+
+.basic_price h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 26px;
+  background: #485460;
+  padding: 22px 0px;
+  border: 1px solid #ECF0F1;
+  margin: 0;
+  border-radius: 3px;
+}
+
+.basic_price h3:hover {
+  background: #49CBCD;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+
+.basic_price h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #485460;
+  font-size: 20px;
+  background: #F8F9FB;
+  padding: 22px 0px 20px 0px;
+  border: 1px solid #ECF0F1;
+  margin: 0;
+}
+
+.basic_price p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #8c9299;
+  font-size: 14px;
+  background: #FFFFFF;
+  padding: 13px 0px 11px 0px;
+  margin: 0;
+  border: 1px solid #ecf0f1;
+  border-top: none;
+}
+
+.price_button {
+  background: #F8F9FB;
+  padding: 29px 0px;
+  border-radius: 3px;
+  border: 1px solid #ecf0f1;
+  border-top: none;
+}
+
+.price_btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+  background: #788492;
+  padding: 4px 48px 8px 48px;
+}
+
+.price_btn:hover {
+  background: #49CBCD;
+}
+
+/* price Part CSS End */
+
+/* Blog Part CSS Start */
+
+#blog_part {
+  padding: 100px 0px;
+  position: relative;
+}
+
+.left_arrow {
+  position: absolute;
+  color: #999999;
+  font-size: 30px;
+  cursor: pointer;
+  top: 47%;
+  left: 17%;
+  z-index: 200;
+}
+
+.right_arrow {
+  position: absolute;
+  top: 47%;
+  right: 17%;
+  color: #999999;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 200;
+}
+
+
+.blog_text h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 42px;
+  padding-top: 36px;
+  padding-bottom: 20px;
+}
+
+.blog_text p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #4e525d;
+  font-size: 19px;
+  line-height: 30px;
+  padding: 0px 235px;
+  margin-bottom: 33px;
+}
+
+.blog_text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #9a8faf;
+  font-size: 21px;
+}
+
+
+/* Blog Part CSS End */
+
+/* Contact Part CSS Start */
+
+#contact_part {
+  padding: 100px 0px;
+  background: url(../img/contact-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact_head h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 42px;
+  padding-bottom: 120px;
+}
+
+.contact_left h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+}
+
+.contact_left p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #767676;
+  font-size: 14px;
+  padding: 0px 100px 0px 0px;
+}
+
+.bottom_p {
+  color: #807494 !important;
+}
+
+.contact_icon {
+  margin-top: 40px;
+}
+
+.contact_icon li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #3B5997;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.contact_icon li a {
+  font-size: 20px;
+  color: #FFf;
+}
+
+.form-group {
+  width: 47%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.contact_input {
+  padding: 0px 0px 0px 20px;
+  border-radius: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #C5C5C5;
+  font-size: 16px;
+}
+
+.contact_btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  background: #49CBCD;
+  padding: 7px 58px;
+  margin-top: 30px;
+  float: right;
+  border-radius: 2px;
+}
+
+/* Contact Part CSS End */
+
+/* Preloader Part CSS */
+
+.preloader {
+  position: fixed;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  z-index: 10000;
+}
+
+.preloader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
